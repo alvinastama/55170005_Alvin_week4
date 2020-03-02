@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: 'Raleway', ;
+  }
+  
+  ul.navbar {
+    padding: 20px;
+    margin: 0;
+  
+    li {
+      background-color: #5d5d5a;
+      color: #fff4e3;
+      display: inline;
+      margin-right: 5px;
+      padding: 10px;
+      border-radius: 10px;
+    }
+  
+    li.active {
+      color: brown;
+    }
+  }
+  
+  ul.employee-list {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+    li {
+      padding: 10px;
+      background-color: #fff4e3;
+      border-radius: 10px;
+      display: block;
+      width: 200px;
+      margin: 5px;
+  
+      .id {
+        margin-right: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: brown;
+        color: #fff4e3;
+      }
+    }
+  }
